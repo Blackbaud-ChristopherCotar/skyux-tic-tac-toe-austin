@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
+import {GamesService} from "./games.service";
 
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
-  providers: [],
+  providers: [ GamesService ],
   entryComponents: []
 })
 export class AppExtrasModule { }

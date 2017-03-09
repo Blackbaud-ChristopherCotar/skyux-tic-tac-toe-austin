@@ -1,0 +1,12 @@
+<fieldset>
+  <legend>
+    Create a game
+  </legend>
+  <form>
+    <label>Human First?
+      <input type="checkbox" [(attr.checked)]="isHumanPlayerFirst">
+    </label>
+    <button (click)="handleClick()">Create</button>
+  </form>
+</fieldset>
+{{ output }}
